@@ -4,7 +4,7 @@ export default function App() {
   const questions = [
     {
       questionText:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit augue quam, non iaculis eros efficitur ut. Sed gravida erat nec lacinia ornare. ",
+        "Os projetos em Java são de uso exclusivo para aplicativos Android e não tem nenhuma aplicação além dessa. ",
       answerOptions: [
         {
           answerText: "Verdadeiro",
@@ -36,11 +36,11 @@ export default function App() {
       answerOptions: [
         {
           answerText: "Verdadeiro",
-          isCorrect: true,
+          isCorrect: false,
         },
         {
           answerText: "Falso",
-          isCorrect: false,
+          isCorrect: true,
         },
       ],
     },
@@ -78,17 +78,14 @@ export default function App() {
     }
   };
   return (
-    <div className="app">
+    <div className="card">
       {showScore ? (
         <div className="score-section">
-          You scored {score} out of {questions.length}
+          Você acertou {score} de {questions.length} perguntas
         </div>
       ) : (
         <>
           <div className="question-section">
-            <div className="question-count">
-              <span>Question {currentQuestion + 1}</span>/{questions.length}
-            </div>
             <div className="question-text">
               {questions[currentQuestion].questionText}
             </div>
