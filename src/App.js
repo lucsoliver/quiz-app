@@ -17,16 +17,23 @@ export default function App() {
       ],
     },
     {
-      questionText:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit augue quam, non iaculis eros efficitur ut. Sed gravida erat nec lacinia ornare. ",
+      questionText: "Quem fundou a Apple?",
       answerOptions: [
         {
-          answerText: "Verdadeiro",
+          answerText: "Bill Gates",
           isCorrect: false,
         },
         {
-          answerText: "Falso",
+          answerText: "Sheryl Sandberg",
+          isCorrect: false,
+        },
+        {
+          answerText: "Steve Jobs",
           isCorrect: true,
+        },
+        {
+          answerText: "Sundar Pichai",
+          isCorrect: false,
         },
       ],
     },
