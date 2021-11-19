@@ -38,8 +38,50 @@ export default function App() {
       ],
     },
     {
-      questionText:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit augue quam, non iaculis eros efficitur ut. Sed gravida erat nec lacinia ornare. ",
+      questionText: "Qual a sequência correta dos navegadores mais usados?",
+      answerOptions: [
+        {
+          answerText: "a) Chrome, Microsoft Edge e Firefox.",
+          isCorrect: true,
+        },
+        {
+          answerText: "b) Firefox, Microsoft Edge e Chrome.",
+          isCorrect: false,
+        },
+        {
+          answerText: "c) Internet Explorer, Firefox e Chrome.",
+          isCorrect: false,
+        },
+        {
+          answerText: "d) Chrome, Firefox e Microsoft Edge.",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      questionText: "Quem é o predecessor do Linux?",
+      answerOptions: [
+        {
+          answerText: "a) DOS.",
+          isCorrect: false,
+        },
+
+        {
+          answerText: "b) MacOS.",
+          isCorrect: false,
+        },
+        {
+          answerText: "c) Unix.",
+          isCorrect: true,
+        },
+        {
+          answerText: "d) BeOS",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      questionText: "Java é uma linguagem de código aberto.",
       answerOptions: [
         {
           answerText: "Verdadeiro",
@@ -53,16 +95,79 @@ export default function App() {
     },
     {
       questionText:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit augue quam, non iaculis eros efficitur ut. Sed gravida erat nec lacinia ornare. ",
+        "Qual a linguagem de programação, script e marcação mais usadas atualmente? ",
+      answerOptions: [
+        {
+          answerText: "a) HTML/CSS",
+          isCorrect: false,
+        },
+        {
+          answerText: "b) TypeScript",
+          isCorrect: false,
+        },
+        {
+          answerText: "c) Python",
+          isCorrect: false,
+        },
+        {
+          answerText: "d) JavaScript",
+          isCorrect: true,
+        },
+      ],
+    },
+    {
+      questionText: "Qual a banco de dados mais usado atualmente?",
+      answerOptions: [
+        {
+          answerText: "a) MySQL.",
+          isCorrect: true,
+        },
+        {
+          answerText: "b) PostgreSQL",
+          isCorrect: false,
+        },
+        {
+          answerText: "c) SQLite",
+          isCorrect: false,
+        },
+        {
+          answerText: "d) MongoDB",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      questionText: "Qual plataforma de nuvem mais utilizado atualmente? ",
+      answerOptions: [
+        {
+          answerText: "a) Google Cloud Platform.",
+          isCorrect: false,
+        },
+        {
+          answerText: "b) Microsoft Azure",
+          isCorrect: false,
+        },
+        {
+          answerText: "c) AWS",
+          isCorrect: true,
+        },
+        {
+          answerText: "d) Heroku",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      questionText:
+        "Saber inglês básico é essencial para compreender a maioria das linguagens de programação.",
       answerOptions: [
         {
           answerText: "Verdadeiro",
-          isCorrect: false,
+          isCorrect: true,
         },
-
         {
           answerText: "Falso",
-          isCorrect: true,
+          isCorrect: false,
         },
       ],
     },
