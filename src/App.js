@@ -158,6 +158,19 @@ export default function App() {
       ],
     },
     {
+      questionText: "Scrum é uma metodologia ágil?",
+      answerOptions: [
+        {
+          answerText: "Verdadeiro",
+          isCorrect: true,
+        },
+        {
+          answerText: "Falso",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
       questionText:
         "Saber inglês básico é essencial para compreender a maioria das linguagens de programação.",
       answerOptions: [
