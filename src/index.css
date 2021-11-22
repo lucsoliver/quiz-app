@@ -19,7 +19,6 @@ body {
   height: min-content;
   border-radius: 15px;
   padding: 20px;
-  /* display: flex; */
   box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
   justify-content: space-evenly;
 }
@@ -47,7 +46,6 @@ body {
 .answer-section {
   width: 100%;
   height: auto;
-  /* display: flex; */
   flex-direction: row;
   justify-content: space-between;
   text-align: center;
@@ -58,7 +56,6 @@ button {
   width: 80%;
   background-color: #fff;
   border-radius: 15px;
-  /* padding: 5px; */
   justify-content: flex-start;
   align-items: center;
   border: 2px solid #4eb679;
